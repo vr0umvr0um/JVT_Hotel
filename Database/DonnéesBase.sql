@@ -1,7 +1,5 @@
 
 /* Fichier sql contenant les données "de base" de la base de données*/
-/* Créateur : Jules Forest */
-/* Implémentation : Vanessa Antivackis */
 
 INSERT INTO Adresse(numero, rue, ville, codePostal, pays) VALUES 
 	(7, 'Rue de la République', 'Lyon', 69001, 'France'),
@@ -149,7 +147,6 @@ INSERT INTO Reservation(dateArrive, dateDepart, estValide, estTraite, numChambre
 ;
 
 INSERT INTO administrateur (mailAdmin, mdpAdmin, pseudoAdmin) VALUES
-	("forestjules5@gmail.com", "16687b6b4408496223ecc12f66673831ea93cddf0f19b8928a2f375d872c56bd", "Zorg"), /* mdp = "julesLPB" */
 	("jhonKennedy@gmail.com", "54af2a2960e582263c45971cdd40da4ae31ede1db5395629d910f056479de12d", "XXXTentacion"), /* mdp = "jojo" */
 	("momoCalinou@gmail.com", "fc008bdb48553a900bdbafcd64e5b1f567e79993418c1c1bdbae9cfa419caa19", "Le M"), /* mdp = "leplusbeau" */
 	("annita.salawi@gmail.com", "03fc1174b7adb5fecf273c822adc0e31e62acc4ee8f992b09c2cb246bae1472f", "Anni"), /* mdp = "jaimeleschats" */
