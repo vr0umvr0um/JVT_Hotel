@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>FeuilleDeStyle.css</file>
+        <file>logoProjet_petit_petit.png</file>
+        <file>logoProjet_petit.png</file>
+    </qresource>
+</RCC>

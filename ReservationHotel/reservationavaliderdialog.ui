@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ReservationAvaliderDialog</class>
+ <widget class="QDialog" name="ReservationAvaliderDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>852</width>
+    <height>597</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout_9">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+        <widget class="QLabel" name="logo">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>logoProjet_petit_petit.png</pixmap>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+        <widget class="QPushButton" name="accueil">
+         <property name="text">
+          <string>Accueil</string>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+        <widget class="QPushButton" name="account">
+         <property name="text">
+          <string>Compte</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_8">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_7">
+             <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+              <widget class="QLabel" name="label_filtre">
+               <property name="text">
+                <string>ACTIONS</string>
+               </property>
+              </widget>
+             </item>
+             <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+              <widget class="QPushButton" name="pushButton_AfficherChambres">
+               <property name="text">
+                <string>Liste  des chambres</string>
+               </property>
+              </widget>
+             </item>
+             <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+              <widget class="QPushButton" name="pushButton_ValiderResa">
+               <property name="autoFillBackground">
+                <bool>false</bool>
+               </property>
+               <property name="text">
+                <string>Réservations à valider</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_6">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_3">
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_6">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout">
+                   <item>
+                    <layout class="QVBoxLayout" name="verticalLayout">
+                     <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                      <widget class="QLabel" name="label_5">
+                       <property name="text">
+                        <string>Réservations non-traitées</string>
+                       </property>
+                       <property name="alignment">
+                        <set>Qt::AlignCenter</set>
+                       </property>
+                      </widget>
+                     </item>
+                     <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                      <widget class="QLabel" name="label_3">
+                       <property name="text">
+                        <string>Quelle réservation souhaitez-vous modifier ?</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_3">
+                   <item>
+                    <layout class="QVBoxLayout" name="verticalLayout_4">
+                     <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                      <widget class="QLabel" name="label_4">
+                       <property name="text">
+                        <string>( idReservation - dateArrive - dateDepart - estValide - estTraite - numChambre - idClient )</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                      <widget class="QComboBox" name="comboBox_listeResaNT"/>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </item>
+                 <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                  <widget class="QCheckBox" name="checkBox_ValiderResaNT">
+                   <property name="text">
+                    <string>Valider la réservation</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                  <widget class="QPushButton" name="pushButton_ConfimerNT">
+                   <property name="text">
+                    <string>CONFIRMER</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <widget class="QTableWidget" name="tableWidget_ListeResaNT">
+                 <column>
+                  <property name="text">
+                   <string>idRéservation</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Date Arrivée</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Date Départ</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>estValide</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>estTraite</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>numChambre</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>idClient</string>
+                  </property>
+                 </column>
+                </widget>
+               </item>
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_5">
+                 <item>
+                  <widget class="QLabel" name="label_9">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="text">
+                    <string>Réservations déjà validées</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QTableWidget" name="tableWidget_ListeResaDV">
+                   <column>
+                    <property name="text">
+                     <string>idRéservation</string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>Date Arrivée</string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>Date Départ</string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>estValide</string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>estTraite</string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>numChambre</string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>idClient</string>
+                    </property>
+                   </column>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
