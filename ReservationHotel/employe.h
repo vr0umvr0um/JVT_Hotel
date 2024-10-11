@@ -1,6 +1,3 @@
-/**
- * @author Haton Tom
- */
 #ifndef EMPLOYE_H
 #define EMPLOYE_H
 

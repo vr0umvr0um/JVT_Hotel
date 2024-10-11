@@ -20,7 +20,6 @@ class HomePageDialog;
  * Elle permet d'afficher des hôtels ainsi que de rechercher des hôtels selon leur nom et ville.
  *
  * @brief The HomePageDialog class
- * @author Vanessa Antivackis
  */
 class HomePageDialog : public QDialog
 {

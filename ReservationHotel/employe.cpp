@@ -1,7 +1,3 @@
-/**
- * @author Haton Tom
- */
-
 #include "employe.h"
 #include <iostream>
 

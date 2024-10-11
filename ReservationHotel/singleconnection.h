@@ -10,7 +10,6 @@ using namespace std;
 
 /**
  * @brief The SingleConnection class
- * @author Forest Jules
  */
 class SingleConnection {
     public:

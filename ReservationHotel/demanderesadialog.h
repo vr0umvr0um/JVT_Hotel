@@ -18,7 +18,6 @@ class DemandeResaDialog;
  * Cette classe permet de gérer l'interface graphique 'DemandeResaDialog'
  *
  * @brief The DemandeResaDialog class
- * @author Vanessa Antivackis
  */
 class DemandeResaDialog : public QDialog
 {

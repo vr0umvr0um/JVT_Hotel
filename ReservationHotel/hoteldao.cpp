@@ -1,6 +1,3 @@
-/**
- * @author Forest Jules
- */
 #include "HotelDAO.h"
 #include "adressedao.h"
 

@@ -1,6 +1,3 @@
-/**
- * @author Forest Jules
-*/
 #ifndef ADMINISTRATEUR_H
 #define ADMINISTRATEUR_H
 

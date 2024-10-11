@@ -1,6 +1,3 @@
-/**
- * @author Forest Jules 22203517
- */
 #include "admincomptedialog.h"
 #include "ui_admincomptedialog.h"
 

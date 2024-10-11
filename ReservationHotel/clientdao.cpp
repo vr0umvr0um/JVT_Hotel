@@ -1,7 +1,3 @@
-/**
- * @author Vanessa Antivackis
- */
-
 #include "clientdao.h"
 
 // --------- Fonctions CRUD -----------

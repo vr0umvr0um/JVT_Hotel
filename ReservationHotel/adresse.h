@@ -10,7 +10,6 @@ using namespace std;
 /**
  * @brief la classe Adresse
  * Cette classe va représenter des adresses physiques
- * Auteur : Forest Jules
  */
 class Adresse{
     private:

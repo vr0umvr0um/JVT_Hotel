@@ -18,7 +18,6 @@ using namespace std;
  * @brief classe AdresseDAO
  * Cette classe va représenter la porte d'entrée dans la bdd pour les adresses et donne différentes
  * fonctions qui permettront d'interagir avec
- * Auteur : Forest Jules
  */
 class AdresseDAO : public DAO{
     public:

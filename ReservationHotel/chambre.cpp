@@ -1,7 +1,3 @@
-/**
- * @author Forest Jules
- */
-
 #include "chambre.h"
 #include <iostream>
 

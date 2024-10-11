@@ -10,7 +10,6 @@ using namespace std;
 /**
  * @brief la classe Hotel
  * Cette classe représente un hotel
- * Auteur : Forest Jules
  */
 class Hotel{
 private:

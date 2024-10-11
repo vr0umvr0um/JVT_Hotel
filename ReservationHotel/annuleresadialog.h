@@ -21,7 +21,6 @@ class AnnuleResaDialog;
  * Cette classe permet de gérer l'interface graphique 'AnnuleResaDialog'
  *
  * @brief The AnnuleResaDialog class
- * @author Vanessa Antivackis
  */
 class AnnuleResaDialog : public QDialog
 {

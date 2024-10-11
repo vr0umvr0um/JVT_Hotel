@@ -13,7 +13,6 @@ class ClientInscriptionDialog;
 
 /**
  * @brief The ClientInscriptionDialog class
- * @author Vanessa Antivackis
  */
 class ClientInscriptionDialog : public QDialog
 {

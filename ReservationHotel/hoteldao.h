@@ -22,7 +22,6 @@ using namespace std;
  * @brief classe HotelDAO
  * Cette classe va représenter la porte d'entrée dans la bdd pour les hotels et donne différentes
  * fonctions qui permettront d'interagir avec
- * Auteur : Forest Jules
 */
 class HotelDAO : public DAO{
 public:

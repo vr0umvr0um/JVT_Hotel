@@ -1,6 +1,3 @@
-/**
- * @author : Forest Jules
- */
 #ifndef DAO_H
 #define DAO_H
 

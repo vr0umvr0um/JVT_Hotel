@@ -21,7 +21,6 @@ class ClientCompteDialog;
  * Cette classe permet de gérer l'interface graphique d'un compte client.
  *
  * @brief The ClientCompteDialog class
- * @author Vanessa Antivackis
  */
 class ClientCompteDialog : public QDialog
 {

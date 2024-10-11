@@ -12,7 +12,6 @@ using namespace std;
  * des clients de la BDD.
  *
  * @brief Classe Client
- * @author Vanessa Antivackis
  */
 class Client{
     private:

@@ -20,7 +20,6 @@ using namespace std;
  * @brief classe ChambreDAO
  * Cette classe va représenter la porte d'entrée dans la bdd pour les chambres et donne différentes
  * fonctions qui permettront d'interagir avec
- * Auteur : Forest Jules
  */
 class ChambreDAO : public DAO{
 public:
@@ -62,7 +61,6 @@ public:
      * liées à un objet client
      * dans la base de données à partir d'un numero de chambre.
      *
-     * @author Vanessa Antivackis
      * @brief lire
      * @param numChambre
      * @return chambre

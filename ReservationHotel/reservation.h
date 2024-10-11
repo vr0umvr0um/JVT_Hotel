@@ -11,7 +11,6 @@ using namespace std;
 /**
  * @brief la classe Reservation
  * Cette classe représente de manière applicative les Reservations
- * @author : Forest Jules
  */
 class Reservation {
     private:

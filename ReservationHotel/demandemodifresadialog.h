@@ -20,7 +20,6 @@ class DemandeModifResaDialog;
  *
  * Cette classe permet de gérer l'interface graphique 'DemandeModifResaDialog'
  *
- * @author Vanessa Antivackis
  * @brief The DemandeModifResaDialog class
  */
 class DemandeModifResaDialog : public QDialog

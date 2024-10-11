@@ -1,6 +1,3 @@
-/**
- * @author Forest Jules
- */
 #include "reservationdao.h"
 #include "chambredao.h"
 #include "clientdao.h"

@@ -1,7 +1,3 @@
-/**
- * @author Forest Jules
- */
-
 #include "adresse.h"
 
 #include <iostream>

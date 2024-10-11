@@ -19,7 +19,6 @@ using namespace std;
  * un client de la BDD.
  *
  * @brief Classe ClientDAO
- * @author Vanessa Antivackis
  */
 class ClientDAO : public DAO{
 

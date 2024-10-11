@@ -1,6 +1,3 @@
-/**
- * @author Forest Jules
- */
 #include "adressedao.h"
 
 #include <iostream>

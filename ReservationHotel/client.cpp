@@ -1,7 +1,3 @@
-/**
- * @author Vanessa Antivackis
- */
-
 #include "client.h"
 #include <iostream>
 

@@ -21,7 +21,6 @@ class ModifResaDialog;
  *
  * Cette classe permet de gérer une interface graphique de modification de réservation.
  *
- * @author Vanessa Antivackis
  * @brief The ModifResaDialog class
  */
 class ModifResaDialog : public QDialog

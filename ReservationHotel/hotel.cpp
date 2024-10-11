@@ -1,7 +1,3 @@
-/**
- * @author Forest Jules
- */
-
 #include "hotel.h"
 
 #include <iostream>
